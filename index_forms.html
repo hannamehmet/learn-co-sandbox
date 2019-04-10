@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORMS!</title>
+    <style>
+        label { color: blue; }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1 style="color:red">Playing With Forms</h1>
+    <form>
+      <div id="first">
+        <label class="mylabel" for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Hanna Mehmet">
+      </div>
+      <div>
+        <label class="mylabel" for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="email@me.com">
+      </div>
+      <div>
+        <input type="radio" name="gender" value="male">Male<br> 
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+      </div>
+      <div>
+      <label for="Dinner">Dinner:</label>
+      <select>
+        <option value="Pizza"> Pizza</option>
+        <option value="Salad"> Salad</option>
+        <option value="Ice Cream"> Ice Cream</option>
+      </select>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea maxlength="40"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" name="subscribe" value="yes">Subscribe to Newsletter? 
+      </div>
+      <div>
+        <input type="submit" value="Subscribe">
+      </div>
+    </form>
+    
+    <iframe width="700" height="500" src="https://www.youtube.com/embed/7hHECMVOq7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <audio controls src="./audiofile.mp3"></audio>
+    <br>
+    <video controls src=""></video>
+
+  </body>
+</html>
